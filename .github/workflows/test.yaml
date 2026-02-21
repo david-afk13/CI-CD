@@ -22,4 +22,4 @@ jobs:
           pip install pytest requests
 
       - name: Run tests
-        run: pytest
+        run: pytest -v pypypy.py
